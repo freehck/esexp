@@ -1,0 +1,15 @@
+This is a prototype of ESexp -- Enriched Sexp library.
+
+ESexp differs from Sexplib in that it separates Atoms to Int, Float, String and Symbol.
+
+For now it can only parse and print sexps.
+
+Build:
+	`make`
+
+Clean:
+	`make clean`
+
+Test:
+	`./test.native`
+

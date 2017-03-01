@@ -1,0 +1,4 @@
+PKG core
+
+S .
+B _build

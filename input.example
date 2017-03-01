@@ -1,0 +1,12 @@
+(type connection
+      (record
+       (host string)
+       (port int)))
+
+(type daemon-config
+      (list connection))
+
+(value (daemon-config "main.cfg")
+       ((host "localhost")
+	(port 2222)))
+
